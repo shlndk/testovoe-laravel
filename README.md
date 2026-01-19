@@ -1,7 +1,7 @@
 Встановлення
 ```
 composer install
-copy .env.example .env (якщо PowerShell) bash => cp .env.example .env
+cp .env.example .env
 php artisan migrate --seed
 php artisan serve
 ```
